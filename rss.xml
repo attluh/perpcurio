@@ -1,0 +1,15 @@
+<rss version="2.0">
+    <channel>
+        <title>Posts from Perpetually Curious</title>
+        <description>PerpCurio's Diary entries and other silly updates.</description>
+        <link>https://perpcurio.nekoweb.org</link>
+
+        <item>
+            <title>Hello World</title>
+            <description>Talking about why I'm working Perpetually Curious as a site, introducing myself a bit, and comparing personal websites to slow fashion.</description>
+            <link>https://perpcurio.nekoweb.org/diary.html#12292024</link>
+            <guid>diary-12292024</guid>
+            <pubDate>Sun 29 Dec 2024, 14:00:00 -0700</pubDate>
+        </item>
+    </channel>
+</rss>
