@@ -14,20 +14,20 @@
     font-size: 18px;
     font-weight: 600;
     font-family: 'Courier New', Courier, monospace
-};
+}
 
 .site-box .sitefeature {
     background-image: url('https://perpcurio.nekoweb.org/img/art/cult_moon_cat_small.png');
-};
+}
 
 .site-box > a > p {
     color: #691086;
     font-weight: bold;
-};
+}
 
 .site-box > a > span {
     color: #e80022;
-};
+}
 
 /* Style for your 'Follow on Nekoweb' button (<iframe src="https://nekoweb.org/frame/follow" frameborder="0" width="170" height="28"></iframe>) */
 .follow {
