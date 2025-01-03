@@ -24,8 +24,7 @@
 .site-box .sitefeature img {
     display: none;
 }
-
-.site-box > a {
+.site-box > a > p {
     color: #691086;
 }
 
@@ -34,7 +33,7 @@
 }
 
 .site-box span {
-    font-size: 12px;
+    display: none;
 }
 
 /* Style for your 'Follow on Nekoweb' button (<iframe src="https://nekoweb.org/frame/follow" frameborder="0" width="170" height="28"></iframe>) */
