@@ -1,6 +1,7 @@
 /* pink: ff2ab2 */
 body {
-  background-color: #05001d;
+  background-color: #691086;
+  color: #e00000;
   font-family: Courier;
   font-weight: 600;
   padding: 3em;
@@ -8,18 +9,26 @@ body {
 }
 
 header {
+  background-color: #05001d;
+  border: 3px;
+  border-style: dashed;
   text-align: center;
+}
+
+header a {
+  color: #e00000;
 }
 
 #flex_container {
   display: flex;
+  flex-direction: row;
   gap: 1em;
   justify-content: space-around;
+  margin: 1em 0;
 }
 
 #flex_container h2 {
   background-color: #05001d;
-  color: #e80022;
   border: 3px;
   border-style: dashed;
   padding: .5em;
@@ -27,9 +36,9 @@ header {
 }
 
 footer, #flex_container nav, #flex_container main, #flex_container aside {
-  background-color: #691086;
+  background-color: #05001d;
   border: 3px;
-  border-color: #e80022;
+  border-color: #e00000;
   border-style: dashed;
   padding: 1em;
 }
@@ -39,8 +48,12 @@ main {
 }
 
 #introduction {
-  display: flex;
   align-items: flex-start;
+  padding: .5em;
+}
+
+#introduction figure {
+  margin-left: 0;
 }
 
 #sections {
@@ -49,13 +62,12 @@ main {
 }
 
 footer {
-  margin-top: 1em;
   text-align: center;
 }
 
 /* Global element styles */
 a {
-  color: #e80022;
+  color: #9a12b3;
   text-decoration: none;
 }
 
