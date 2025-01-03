@@ -29,6 +29,7 @@
 }
 
 .site-box .follow {
+    display: inline;
     color: #e80022;
 }
 
