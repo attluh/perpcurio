@@ -7,7 +7,7 @@
 /* Must start with ".site-box". Change how your website will appear on main nekoweb site: https://lune.dimden.dev/405a44b7e5.png */
 .site-box {
     background-color: #05001d;
-    background-image: url(/static/assets/cookiebox.png);
+    background-image: none;
     background-repeat: no-repeat;
     border: dashed #e80022 3px;
     border-radius: 5px;
@@ -17,16 +17,24 @@
 }
 
 .site-box .sitefeature {
-    background-image: url('https://perpcurio.nekoweb.org/img/art/cult_moon_cat_small.png');
+    background: center no-repeat url('https://perpcurio.nekoweb.org/img/art/cult_moon_cat_small.png');
+    border: none;
 }
 
-.site-box > a > p {
+.site-box .sitefeature img {
+    display: none;
+}
+
+.site-box > a {
     color: #691086;
-    font-weight: bold;
 }
 
-.site-box > a > span {
+.site-box .follow {
     color: #e80022;
+}
+
+.site-box span {
+    font-size: 12px;
 }
 
 /* Style for your 'Follow on Nekoweb' button (<iframe src="https://nekoweb.org/frame/follow" frameborder="0" width="170" height="28"></iframe>) */
