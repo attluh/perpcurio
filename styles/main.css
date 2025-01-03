@@ -17,6 +17,15 @@ header {
   justify-content: space-around;
 }
 
+#flex_container h2 {
+  background-color: #05001d;
+  color: #e80022;
+  border: 3px;
+  border-style: dashed;
+  padding: .5em;
+  text-align: center;
+}
+
 footer, #flex_container nav, #flex_container main, #flex_container aside {
   background-color: #691086;
   border: 3px;
@@ -37,15 +46,6 @@ main {
 #sections {
   display: flex;
   justify-content: space-evenly;
-}
-
-nav h3, aside h3, main h2 {
-  background-color: #05001d;
-  color: #e80022;
-  border: 3px;
-  border-style: dashed;
-  padding: .5em;
-  text-align: center;
 }
 
 footer {
