@@ -3,7 +3,6 @@ body {
   background-color: #691086;
   color: #e00000;
   font-family: Courier;
-  font-weight: 600;
   padding: 3em;
   padding-top: 0;
 }
@@ -69,6 +68,11 @@ footer {
 a {
   color: #9a12b3;
   text-decoration: none;
+}
+
+/* Increase weight on header text since monospace is a cute lil baby. */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
 }
 
 ul { padding-left: 20px; }
