@@ -1,8 +1,29 @@
 main section {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-section figure {
-    display: inline;
+figure {
+    background-color: #dfa5e8;
+    background-blend-mode: darken;
+    display: inline-flex;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+figure > figcaption {
+    background-color: #dfa5e8;
+    color: #05001d;
+    flex: 1;
+    font-size: 12px;
+    margin-top: 1em;
+    width: min-content;
+}
+
+figure > img {
+    flex: 1 0 100%;
 }
