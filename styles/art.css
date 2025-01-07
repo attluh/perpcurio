@@ -17,7 +17,7 @@ figure {
 
 figure > figcaption {
     background-color: #dfa5e8;
-    color: #05001d;
+    color: #000;
     flex: 1;
     font-size: 12px;
     margin-top: 1em;

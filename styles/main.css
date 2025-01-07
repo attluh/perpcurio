@@ -1,21 +1,20 @@
-/* pink: ff2ab2 */
 body {
   background-color: #691086;
-  color: #e00000;
+  color: #f00000;
   font-family: Courier;
   padding: 3em;
   padding-top: 0;
 }
 
 header {
-  background-color: #05001d;
+  background-color: #000;
   border: 3px;
   border-style: dashed;
   text-align: center;
 }
 
 header a {
-  color: #e00000;
+  color: #f00000;
 }
 
 #flex_container {
@@ -27,7 +26,7 @@ header a {
 }
 
 #flex_container h2 {
-  background-color: #05001d;
+  background-color: #000;
   border: 3px;
   border-style: dashed;
   padding: .5em;
@@ -35,9 +34,9 @@ header a {
 }
 
 footer, #flex_container nav, #flex_container main, #flex_container aside {
-  background-color: #05001d;
+  background-color: #000;
   border: 3px;
-  border-color: #e00000;
+  border-color: #f00000;
   border-style: dashed;
   padding: 1em;
 }
@@ -66,7 +65,7 @@ footer {
 
 /* Global element styles */
 a {
-  color: #9a12b3;
+  color: #b82de6;
   text-decoration: none;
 }
 

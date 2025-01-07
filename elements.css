@@ -6,10 +6,10 @@
 
 /* Must start with ".site-box". Change how your website will appear on main nekoweb site: https://lune.dimden.dev/405a44b7e5.png */
 .site-box {
-    background-color: #05001d;
+    background-color: #000;
     background-image: none;
     background-repeat: no-repeat;
-    border: dashed #e80022 3px;
+    border: dashed #f00000 3px;
     border-radius: 5px;
     font-size: 18px;
     font-weight: 600;
@@ -30,7 +30,7 @@
 
 .site-box .follow {
     display: inline;
-    color: #e80022;
+    color: #f00000;
 }
 
 .site-box span {
@@ -39,16 +39,16 @@
 
 /* Style for your 'Follow on Nekoweb' button (<iframe src="https://nekoweb.org/frame/follow" frameborder="0" width="170" height="28"></iframe>) */
 .follow {
-    background-color: #05001d;
-    border: 3px dashed #e80022;
-    color: #e80022;
+    background-color: #000;
+    border: 3px dashed #f00000;
+    color: #f00000;
 }
 
 /* Style for your post box (must start with ".post-box") */
 .post-box {
-    background-color: #05001d;
+    background-color: #000;
     border: 3px dashed #691086;
-    color: #e80022;
+    color: #f00000;
     font-family: Courier;
     padding: 15px;
 }
