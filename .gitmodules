@@ -1,0 +1,3 @@
+[submodule "nekoweb"]
+	path = nekoweb
+	url = https://git.nekoweb.org/perpcurio.git
