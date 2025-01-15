@@ -2,22 +2,46 @@
     <channel>
         <title>Perpetually Curious</title>
         <description>PerpCurio's diary entries and site updates.</description>
-        <link>https://perpcurio.nekoweb.org</link>
+        <link>https://perpcurio.com</link>
 
         <item>
-            <title>New Hyperfixation: Vtuber Models</title>
-            <description>After a good year or more, I seem to be out of an art rut. It started last week when I got the urge to redraw Moon Cat for a new profile picture, which I was really happy with and based the site design off of. Gotta credit Cult of the Lamb for inspiring me too. I had so much fun with that game. Then a couple of totally unexpected things happened.</description>
-            <link>https://perpcurio.nekoweb.org/diary.html#20250105</link>
-            <guid>diary-20250105</guid>
-            <pubDate>Sun 05 Jan 2025, 20:00:00 -0700</pubDate>
-        </item>
-
-        <item>
-            <title>Hello World</title>
-            <description>Talking about why I'm working on Perpetually Curious as a site, introducing myself a bit, and comparing personal websites to slow fashion.</description>
-            <link>https://perpcurio.nekoweb.org/diary.html#20241229</link>
-            <guid>diary-20241229</guid>
-            <pubDate>Sun 29 Dec 2024, 14:00:00 -0700</pubDate>
+            <title>Mooncat, Animation, and WebGL</title>
+            <description>Talking about recent projects.</description>
+            <link>https://perpcurio.com/diary#20250113</link>
+            <guid>diary-20250113</guid>
+            <pubDate>Sun 13 Jan 2025, 21:00:00 -0700</pubDate>
+            <content:encoded>&lt;p&gt;With my plan to make a vtuber model, I researched and practiced several tangent skills last week.&lt;/p&gt;
+&lt;h4&gt;Web GL and Three.js&lt;/h4&gt;
+&lt;p&gt;As you may have read, if you&#39;re visiting from Neocities or Nekoweb, I want to make my entry page look like a video game menu or start screen. Currently two links prompt the user to take the portal or turn around. This is my concept&#39;s simple basis: theme the page around a portal with these intentions:
+&lt;ul&gt;
+&lt;li&gt;Inform the user of important info before entering the site (e.g., they&#39;re leaving the community site to go to perpcurio.com)&lt;/li&gt;
+&lt;li&gt;Provide an interactive choice that transports the user one way or the other.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;With that idea in mind, I have two approaches I&#39;m considering:
+&lt;ul&gt;
+&lt;li&gt;A game menu design with a partly animated background, the menu options would be the choice to take the portal or go back&lt;/li&gt;
+&lt;li&gt;A start screen where the user moves an avatar in the direction of their choice, to the portal or back where they came from&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;The first option would be much easier to implement but has less interactivity for the user. The second option would be sick, but it requires me to learn about techniques for browser graphics and may not work on mobile at all. I like the second idea, and whether I can accomplish it or not, I want to try. So, I started reading and watching videos about WebGL and Three.js. I&#39;ve only dedicated a couple hours to this so far, but got a little playground environment created.&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&quot;img/diary/202501/threejs-demo.gif&quot; alt=&quot;A Three.js demo.&quot;&gt;
+&lt;figcaption&gt;A spaghetti-o in space.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h4&gt;Drawing Moon Cat&lt;/h4&gt;
+&lt;p&gt;I&#39;ve drawn Mooncat several times this week and developed a few more features about my little character.
+&lt;ul&gt;
+&lt;li&gt;irises are the moon in different phases depending on emotion/lighting.&lt;/li&gt;
+&lt;li&gt;2 or 3 whiskers on each side of their face.&lt;/li&gt;
+&lt;li&gt;does NOT have a square body&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;&lt;img src=&quot;img/diary/202501/moon_cat_square_body.webp&quot; alt=&quot;A sketch of Mooncat with a cubic body.&quot;&gt;&lt;figcaption&gt;The cubic body isn&#39;t really working is it...&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Mooncat is likely to be the first model I try to rig in Live2D, once I figure out a body design. I still have ideas for a model for my persona, but I want to go really simple at first. Mooncat is perfect for that.&lt;/p&gt;
+&lt;h4&gt;Animation&lt;/h4&gt;
+&lt;p&gt;My only experience with animation is making very simple gif emojis in Procreate. Like the gif of Mooncat in the gify pet feature on my home page I made in procreate. From the vtuber tutorials I ended up watching a bunch of animation tutorials and trying out a few simple exercises. I... um... LOVE animation. Animated shows make up the majority of what &quot;TV&quot; I watch. The possibility of using a software like Live2D to make my own animated shorts is interesting to put it lightly. But anyway... Behold Mooncat yawning.&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;img/diary/202501/moon_cat_yawn.webp&quot; alt=&quot;An animation of Mooncat yawning.&quot;&gt;&lt;figcaption&gt;Mooncat is eepy. Mooncat want nap.&lt;/figcaption&gt;&lt;/figure&gt;</content:encoded>
         </item>
     </channel>
 </rss>
