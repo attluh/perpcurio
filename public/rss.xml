@@ -13,21 +13,21 @@
             <content:encoded>&lt;p&gt;I plowed through progress on my vtuber model project over the weekend. I don&#39;t have much to say other than I&#39;m so proud of how it&#39;s turned out. Here are some snippets of the process and the result of the model at this time.&lt;/p&gt;
 &lt;p&gt;Importing the art into Live2d was a big milestone in the process. I was pleased with how it looked and everything imported without a hitch. At this stage MoonCat&#39;s eye were in the full moon phase.
 &lt;figure&gt;
-&lt;img src=&quot;https://percurio.com/img/diary/202501/live2d_import.webp&quot; alt=&quot;The initial import of the art into Live2d.&quot;&gt;
+&lt;img src=&quot;https://perpcurio.com/img/diary/202501/live2d_import.webp&quot; alt=&quot;The initial import of the art into Live2d.&quot;&gt;
 &lt;figcaption&gt;The initial import of the art into Live2d was great. There were a few things I improved during the processed and reimported the art, but there were no initial issues.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;figure&gt;
-&lt;img src=&quot;https://percurio.com/img/diary/202501/parts_textures.webp&quot; alt=&quot;The model parts organized in Live2d.&quot;&gt;
+&lt;img src=&quot;https://perpcurio.com/img/diary/202501/parts_textures.webp&quot; alt=&quot;The model parts organized in Live2d.&quot;&gt;
 &lt;figcaption&gt;Organizing the layers in the art stage really paid off. See how neat all the textures look.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;figure&gt;
-&lt;img src=&quot;https://percurio.com/img/diary/202501/texture_atlas.webp&quot; alt=&quot;The texture atlas for MoonCat&#39;s model.&quot;&gt;
+&lt;img src=&quot;https://perpcurio.com/img/diary/202501/texture_atlas.webp&quot; alt=&quot;The texture atlas for MoonCat&#39;s model.&quot;&gt;
 &lt;figcaption&gt;The texture atlas is so satisfying.&lt;/figcaption&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;With all the art meshed and the texture atlas mapped I spent 2 days configuring the deformers, parameters, and physics. After all that, and redrawing the model&#39;s mouth, this is it! MoonCat is an animated model the works with motion capture.
 &lt;figure&gt;
-&lt;img src=&quot;https://percurio.com/img/diary/202501/moon_cat_model_demo.gif&quot; alt=&quot;MoonCat responding to camera tracking.&quot;&gt;
+&lt;img src=&quot;https://perpcurio.com/img/diary/202501/moon_cat_model_demo.gif&quot; alt=&quot;MoonCat responding to camera tracking.&quot;&gt;
 &lt;figure&gt;This gif recording shows the model responding to my movement via camera tracking software in Vtube Studio.&lt;/figure&gt;
 &lt;/figure&gt;
 &lt;/p&gt;
