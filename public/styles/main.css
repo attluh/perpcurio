@@ -1,20 +1,33 @@
+/*
+  color palette:
+  #6200E0
+  #04e798
+  #E10064
+  #9BA2FF
+  #FBFBFF
+  #0a100d
+
+  Extras
+  #dcccff
+*/
+
 body {
-  background-color: #691086;
-  color: #f00000;
+  background-color: #0a100d;
+  color: #9BA2FF;
   font-family: Courier;
   padding: 3em;
   padding-top: 0;
 }
 
-header {
-  background-color: #000;
-  border: 3px;
-  border-style: dashed;
+header, footer {
+  border: 8px;
+  border-color: #6200E0;
+  border-style: dotted;
   text-align: center;
 }
 
 header a {
-  color: #f00000;
+  color: #04e798;
 }
 
 #flex_container {
@@ -26,18 +39,18 @@ header a {
 }
 
 #flex_container h2 {
-  background-color: #000;
   border: 3px;
-  border-style: dashed;
+  border-color: #04e798;
+  border-radius: 18px;
+  border-style: outset;
   padding: .5em;
   text-align: center;
 }
 
 footer, #flex_container nav, #flex_container main, #flex_container aside {
-  background-color: #000;
-  border: 3px;
-  border-color: #f00000;
-  border-style: dashed;
+  border: 6px;
+  border-color: #6200E0;
+  border-style: dotted;
   padding: 1em;
 }
 
@@ -65,12 +78,14 @@ footer {
 
 /* Global element styles */
 a {
-  color: #b82de6;
+  color: #E10064;
   text-decoration: none;
 }
 
 /* Increase weight on header text since monospace is a cute lil baby. */
 h1, h2, h3, h4, h5, h6 {
+  color: #04e798;
+  border-color: #04e798;
   font-weight: 600;
 }
 
