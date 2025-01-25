@@ -7,8 +7,8 @@
 
     <style>
         body {
-            background-color: #691086;
-            color: #f00000;
+            background-color: #0a100d;
+            color: #9BA2FF;
             height: 100%;
             font-family: Courier;
             font-weight: 600;
@@ -17,7 +17,7 @@
         }
 
         a {
-            color: #b82de6;
+            color: #E10064;
             text-decoration: none;
         }
 
@@ -29,13 +29,44 @@
         }
 
         main {
-            background-color: #000;
-            border: 3px;
-            border-color: #f00000;
-            border-style: dashed;
+            border: 8px dotted #6200E0;
             margin: 1em;
             padding: 1em;
             text-align: center;
+        }
+
+        #menu {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            justify-content: center;
+        }
+
+        #menu .option {
+            border: 6px  #04e798;
+            border-style: outset;
+            border-radius: 18px;
+            color: #04e798;
+            padding: 1em;
+        }
+
+        #menu .option::before {
+            content: "«";
+            margin: 1em;
+        }
+
+        #menu .option::after {
+            margin: 1em;
+            content: "»";
+        }
+
+        #menu .option:hover:before, #menu .option:focus:before {
+            content: "»";
+        }
+
+        #menu .option:hover::after, #menu .option:focus::after {
+            content: "«";
         }
     </style>
 </head>
@@ -43,13 +74,13 @@
     <section class="flex">
         <main>
             <h1>A portal opens from Neocities to PerpCurio...</h1>
-            <ul>
-                <li><a href="https://perpcurio.com">Take the portal</a></li>
-                <li><a href="https://neocities.org/">Turn Around</a></li>
-            </ul>
-            <p><small>I self host my site. This page keeps me in the community and serves as a jumping point to my full site! I want to make this look like a game start menu but it's plain and simple for now :D</small></p>
+            <div id="menu">
+                <a class="option" href="https://perpcurio.com">Take the portal</a>
+                <a class="option" href="https://neocities.org/">Turn around</a>
+            </div>
             <h2>Latest Update:</h2>
             <p>01.20.2025: Revealing the vtuber model I made of my OC <a href="https://perpcurio.com/diary#20250120">MoonCat</a></p>
+            <p><small>I self host my site. This page keeps me in the community and serves as a jumping point to my full site! I want to make this look like a game start menu but it's plain and simple for now :D</small></p>
         </main>
     </section>
 </body>
