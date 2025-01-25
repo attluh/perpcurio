@@ -5,7 +5,7 @@ main section {
 }
 
 figure {
-    background-color: #FBFBFF;
+    background-color: var(--lightest);
     background-blend-mode: darken;
     display: inline-flex;
     float: left;
@@ -16,8 +16,8 @@ figure {
 }
 
 figure > figcaption {
-    background-color: #FBFBFF;
-    color: #0a100d;
+    background-color: var(--lightest);
+    color: var(--darkest);
     flex: 1;
     font-size: 12px;
     margin-top: 1em;
