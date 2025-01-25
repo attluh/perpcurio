@@ -1,16 +1,3 @@
-/*
-  color palette:
-  #6200E0
-  #04e798
-  #E10064
-  #9BA2FF
-  #FBFBFF
-  #0a100d
-
-  Extras
-  #dcccff
-*/
-
 body {
   --dark: #6200E0;
   --glow: #04e798;
@@ -59,6 +46,27 @@ footer, #flex_container nav, #flex_container main, #flex_container aside {
   border-color: var(--dark);
   border-style: dotted;
   padding: 1em;
+}
+
+#site_map li {
+  list-style-type: "«";
+}
+
+#site_map li > a {
+  margin-left: 3px;
+}
+
+#site_map li::after {
+  content: "»";
+  margin-left: 3px;
+}
+
+#site_map li:hover {
+  list-style-type: "»";
+}
+
+#site_map li:hover::after {
+  content: "«";
 }
 
 main {
