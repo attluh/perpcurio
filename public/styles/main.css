@@ -9,8 +9,6 @@ body {
   background-color: var(--darkest);
   color: var(--light);
   font-family: Courier;
-  padding: 3em;
-  padding-top: 0;
 }
 
 header, footer {
@@ -22,6 +20,10 @@ header, footer {
 
 header a {
   color: var(--glow);
+}
+
+nav {
+  text-align: center;
 }
 
 #flex_container {
@@ -49,6 +51,7 @@ footer, #flex_container nav, #flex_container main, #flex_container aside {
 }
 
 #site_map li {
+  list-style-position: inside;
   list-style-type: "«";
 }
 
