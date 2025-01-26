@@ -9,10 +9,13 @@ figure {
     background-blend-mode: darken;
     display: inline-flex;
     float: left;
-    margin-right: 1em;
-    margin-bottom: 1em;
+    margin: 1em;
     flex-wrap: wrap;
     padding: 1em;
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
 }
 
 figure > figcaption {
@@ -26,4 +29,5 @@ figure > figcaption {
 
 figure > img {
     flex: 1 0 100%;
+    width: inherit;
 }
