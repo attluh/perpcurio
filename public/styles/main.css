@@ -51,12 +51,15 @@ footer, #flex_container nav, #flex_container main, #flex_container aside {
 }
 
 #site_map li {
-  list-style-position: inside;
+  color: var(--accent);
   list-style-type: "«";
+  margin: .5em;
 }
 
 #site_map li > a {
+  color: var(--light);
   margin-left: 3px;
+  font-size: larger;
 }
 
 #site_map li::after {
@@ -107,4 +110,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
-ul { padding-left: 20px; }
+ul {
+  padding-left: 0;
+  list-style-position: inside;
+}
