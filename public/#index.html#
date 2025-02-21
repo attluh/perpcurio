@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PerpCurio</title>
+    <link href="styles/main.css" rel="stylesheet" type="text/css" media="all">
+    <link href="styles/responsive.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Perpetually Curious</a></h1>
+    </header>
+
+    <div id="flex_container">
+        <nav>
+            <section id="site_map">
+                <h2>Site Map</h2>
+                <ul>
+                    <li><a href="art.html">Art</a></li>
+                    <li><a href="diary.html">Diary</a></li>
+                    <li><a href="https://perpcurio.atabook.org/">Guestbook</a></li>
+                    <li><a href="rss.xml">RSS</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2>Cool Sites</h2>
+                <a href="https://patentghost.neocities.org/" target="_blank"><img src="img/site_buttons/patentghost.png" alt="Patent Ghost"></a>
+                <a href="https://bootlegdomain.neocities.org/"><img src="https://bootlegdomain.neocities.org/88x31bootleg.png" alt="Bootleg Blog"></a>
+                <a href="https://kayleerowena.com/" target="_blank"><img src="https://kayleerowena.com/links/images/krowena.png" alt="kaylee rowena"></a>
+                <a href="https://mouette.neocities.org/" target="_blank"><img src="img/site_buttons/mouette.gif" alt="Mouette"></a>
+                <a href="https://jadeeverstone.com/" target="_blank"><img src="img/site_buttons/jadeeverstone.png" alt="Jade Everstone"></a>
+                <a href="https://vidapon.net/" target="_blank"><img src="img/site_buttons/vidapon.gif" alt="Vidapon's Artbox"></a>
+                <h2>PerpCurio Button</h2>
+                <img src="img/site_buttons/perpcurio.webp" alt="Perpetually Curious">
+                <img src="img/site_buttons/mooncat.webp" alt="Perpetually Curious MoonCat">
+                <p><small>Right click to save, or hotlinking is okay.</small></p>
+            </section>
+        </nav>
+
+        <main>
+            <section id="introduction">
+                <article>
+                    <figure>
+                        <img src="img/art/cult_moon_cat_small.png" alt="A cat avatar stares wide-eyed in chaotic wonder at the moon above.">
+                        <figcaption>My avatar I call MoonCat.</figcaption>
+                    </figure>
+                    <p>Hello, adventurer. Of all the places on the web, you found your way here, to my rabbit hole. Likely found by falling through many other rabbit holes. I applaud you and your curiosity. I hope you find something interesting while you're here. Be warned: suggested music and games most definitely have potential to contain NSFW content.</p>
+                </article>
+            </section>
+
+            <div id="sections">
+                <section>
+                    <h2>Games</h2>
+                    <article>
+                        <p>
+                            <span>Games I like..</span>
+                            <ul>
+                                <li>World of Warcraft</li>
+                                <li>Cult of the Lamb</li>
+                                <li>Monster Prom</li>
+                                <li>Webfishing</li>
+                                <li>Civilization</li>
+                                <li>Overwatch</li>
+                            </ul>
+                        </p>
+                    </article>
+                </section>
+
+                <section>
+                    <h2>Music</h2>
+                    <article>
+                        <p>
+                            <span>Music I like...</span>
+                            <ul>
+                                <li>Lilyisthatyou</li>
+                                <li>Sophie Hunter</li>
+                                <li>Fuller</li>
+                                <li>Ashnikko</li>
+                                <li>Black Pontiac</li>
+                                <li>Saint Blonde</li>
+                            </ul>
+                        </p>
+                    </article>
+                </section>
+            </div>
+        </main>
+
+        <aside>
+            <section>
+                <h2>Updates This Month</h2>
+                <ul>
+                    <li>02.11: Diary: <a href="diary#20250211">When They Won't Let You Cook</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Last Month</h2>
+                <ul>
+                    <li>01.26: Random thoughts in the diary.</li>
+                    <li>01.25: Updated the site color palette, added halftone effect to the portal page.</li>
+                    <li>01.20: Revealing my vtuber model of MoonCat in my diary.</li>
+                    <li>01.13: A new diary entry showing off work on project vtuber.</li>
+                    <li>01.08: Site is now hosted on a Digital Ocean Droplet. NeoCities and Nekoweb sites link to this domain.</li>
+                    <li>01.04: Updated styles to be at a more accessible contrast level, while still looking old webish.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Pixel Babies</h2>
+                <figure>
+                    <a href="https://www.lejlart.com/apple.html" target="_blank">
+                        <img src="img/adoptables/latte_lavender.gif" alt="A latte in a green cup, with foam art of a cute skull.">
+                    </a>
+                </figure>
+                <iframe width="314" height="321" scrolling="no" src="https://gifypet.neocities.org/pet/pet.html?name=MoonCat&dob=1624146221&gender=b&element=Fire&pet=https%3A%2F%2Fperpcurio.com%2Fimg%2Fart%2Fmoon_cat_gify_pet.gif&map=https%3A%2F%2Fperpcurio.com%2Fimg%2Fart%2Fpentagram.png&background=&tablecolor=%23e80022&textcolor=white" frameborder="0"></iframe>
+            </section>
+        </aside>
+    </div>
+
+    <footer>
+        <p>Typed on a Quefrency revision 2.</p>
+    </footer>
+</body>
+</html>
