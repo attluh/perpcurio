@@ -7,6 +7,28 @@
         <atom:link href="https://perpcurio.com/rss.xml" rel="self" type="application/rss+xml" />
 
         <item>
+            <title>Resting Up On A Long Weekend</title>
+            <description>7 pm, Enjoying the Rainy Sky</description>
+            <link>https://perpcurio.com/diary#20250303</link>
+            <content:encoded>&lt;p&gt;My partner and I had a lovely Friday night with friends at the park. We were all excited to see what we could find in the sky, since it was the night of &lt;a href=&quot;https://www.npr.org/2025/02/27/nx-s1-5308606/planet-parade-sky-february&quot;&gt;&quot;The Planet Parade&quot;&lt;/a&gt;. Several planets could be seen with the naked eye. And with our friends&#39; telescope, we were able to see 4 of Jupiter&#39;s moons. It was amazing!
+&lt;figure&gt;
+&lt;img src=&quot;https://perpcurio.com/img/diary/202503/planet_parade.webp&quot; alt=&quot;View of Denver looking west from City Park.&quot;&gt;
+&lt;figcaption&gt;Looking west at sunset on the evening of the Planet Parade.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;I&#39;ve been reading The Year of Magical Thinking by Joan Didion. Only a chapter or two, every other day. I&#39;ve been thinking about my Dad a lot recently. I had a couple of days off work for a long weekend, and ended up sleeping most of the time. After those frustrating weeks, I guess I needed more rest than I realized.&lt;/p&gt;
+&lt;p&gt;While not napping, I put up shelves in my lab. Which means I have space on my desk again! I was testing some LEDs on said desk space, when I noticed how aesthetic the lighting was around me. Mostly thanks to the purple emitting from my computer.
+&lt;figure&gt;
+&lt;img src=&quot;https://perpcurio.com/img/diary/202503/arduino_heart.webp&quot; alt=&quot;An Arduino Uno board displaying a heart.&quot;&gt;
+&lt;figcaption&gt;I was testing LED&#39;s with an Arduino Uno and noticed how beautiful the colors of my environment were.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;</content:encoded>
+            <guid isPermaLink="false">diary-20250303</guid>
+            <pubDate>Mon, 03 Mar 2025 19:00:00 -0700</pubDate>
+        </item>
+
+
+        <item>
             <title>When They Won't Let You Cook</title>
             <description>10 pm, Realizing I've become the miserable smart ass and I'm not even 35 yet.</description>
             <link>https://perpcurio.com/diary#20250211</link>
