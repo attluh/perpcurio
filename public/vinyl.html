@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpetually Curious | Vinyl</title>
+    <link href="styles/main.css" rel="stylesheet" type="text/css" media="all">
+    <link href="styles/responsive.css" rel="stylesheet" type="text/css" media="all">
+    <link href="styles/Vinyl.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Perpetually Curious</a></h1>
+    </header>
+
+    <div id="flex_container">
+        <nav>
+            <h2>Vinyl Collection</h2>
+            <p>This page lists all the albums in my home record collection. My partner and I bought a record player and started building this collection sometime in 2024.</p>
+            <p><b>Updated March 16, 2025.</b></p>
+            <a href="index.html">Return Home</a>
+        </nav>
+
+        <main>
+            <section id="list"></section>
+        </main>
+    </div>
+
+    <footer>
+        <p>Typed with love on a Quefrency revision 2.</p>
+    </footer>
+</body>
+
+<script>
+    const records = [
+        ["Anderson Paak", "Venice"],
+        ["Arctic Monkeys", "AM"],
+        ["Arctic Monkeys", "Whatever People Say I Am, That's What I'm Not"],
+        ["Cafe Tacvba", "Jei Beibi!"],
+        ["Chappell Roan", "Midwest Princess"],
+        ["Eurythmics", "Revenge"],
+        ["Glass Animals", "Dreamland"],
+        ["Hermanos Gutierrez", "Sonido Cosmico"],
+        ["Hozier", "Unreal Unearth"],
+        ["Incubus", "Make Yourself"],
+        ["Incubus", "S.C.I.E.N.C.E."],
+        ["J. Cole", "Forest Hills Drive"],
+        ["Kendrick Lamar", "Good Kid Maad City"],
+        ["Lorde", "Pure Heroine"],
+        ["Mac Miller", "Swimming"],
+        ["My Chemical Romance", "The Black Parade"],
+        ["My Chemical Romance", "Three Cheers For Sweet Revenge"],
+        ["Panic! At The Disco", "A Fever You Can't Sweat Out"],
+        ["The Killers", "Hot Fuss"],
+    ];
+
+    const newAlbum = (artist, title) => {
+        const format = text => text.toLowerCase()
+            .replace(/ /g, '-')
+            .replace(/[,.'!]/g, '');
+
+        const album = {
+            artist: artist,
+            cover: `img/album_covers/${format(artist)}_${format(title)}.jpg`,
+            title: title,
+        };
+
+        return album;
+    };
+
+    let list = document.getElementById('list');
+
+    records.forEach(record => {
+        const album = newAlbum(...record);
+        let figure = document.createElement('figure');
+        let img = document.createElement('img');
+        let figcaption = document.createElement('figcaption');
+
+        img.src = album.cover;
+        figcaption.innerHTML = `<i>${album.title}</i><br> ${album.artist}`;
+
+        figure.appendChild(img);
+        figure.appendChild(figcaption);
+        list.appendChild(figure);
+    });
+</script>
+</html>
