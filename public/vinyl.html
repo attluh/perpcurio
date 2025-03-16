@@ -29,59 +29,59 @@
     <footer>
         <p>Typed with love on a Quefrency revision 2.</p>
     </footer>
-</body>
 
-<script>
-    const records = [
-        ["Anderson Paak", "Venice"],
-        ["Arctic Monkeys", "AM"],
-        ["Arctic Monkeys", "Whatever People Say I Am, That's What I'm Not"],
-        ["Cafe Tacvba", "Jei Beibi!"],
-        ["Chappell Roan", "Midwest Princess"],
-        ["Eurythmics", "Revenge"],
-        ["Glass Animals", "Dreamland"],
-        ["Hermanos Gutierrez", "Sonido Cosmico"],
-        ["Hozier", "Unreal Unearth"],
-        ["Incubus", "Make Yourself"],
-        ["Incubus", "S.C.I.E.N.C.E."],
-        ["J. Cole", "Forest Hills Drive"],
-        ["Kendrick Lamar", "Good Kid Maad City"],
-        ["Lorde", "Pure Heroine"],
-        ["Mac Miller", "Swimming"],
-        ["My Chemical Romance", "The Black Parade"],
-        ["My Chemical Romance", "Three Cheers For Sweet Revenge"],
-        ["Panic! At The Disco", "A Fever You Can't Sweat Out"],
-        ["The Killers", "Hot Fuss"],
-    ];
+    <script>
+        const records = [
+            ["Anderson Paak", "Venice"],
+            ["Arctic Monkeys", "AM"],
+            ["Arctic Monkeys", "Whatever People Say I Am, That's What I'm Not"],
+            ["Cafe Tacvba", "Jei Beibi!"],
+            ["Chappell Roan", "Midwest Princess"],
+            ["Eurythmics", "Revenge"],
+            ["Glass Animals", "Dreamland"],
+            ["Hermanos Gutierrez", "Sonido Cosmico"],
+            ["Hozier", "Unreal Unearth"],
+            ["Incubus", "Make Yourself"],
+            ["Incubus", "S.C.I.E.N.C.E."],
+            ["J. Cole", "Forest Hills Drive"],
+            ["Kendrick Lamar", "Good Kid Maad City"],
+            ["Lorde", "Pure Heroine"],
+            ["Mac Miller", "Swimming"],
+            ["My Chemical Romance", "The Black Parade"],
+            ["My Chemical Romance", "Three Cheers For Sweet Revenge"],
+            ["Panic! At The Disco", "A Fever You Can't Sweat Out"],
+            ["The Killers", "Hot Fuss"],
+        ];
 
-    const newAlbum = (artist, title) => {
-        const format = text => text.toLowerCase()
-            .replace(/ /g, '-')
-            .replace(/[,.'!]/g, '');
+        const newAlbum = (artist, title) => {
+            const format = text => text.toLowerCase()
+                .replace(/ /g, '-')
+                .replace(/[,.'!]/g, '');
 
-        const album = {
-            artist: artist,
-            cover: `img/album_covers/${format(artist)}_${format(title)}.jpg`,
-            title: title,
+            const album = {
+                artist: artist,
+                cover: `img/album_covers/${format(artist)}_${format(title)}.jpg`,
+                title: title,
+            };
+
+            return album;
         };
 
-        return album;
-    };
+        let list = document.getElementById('list');
 
-    let list = document.getElementById('list');
+        records.forEach(record => {
+            const album = newAlbum(...record);
+            let figure = document.createElement('figure');
+            let img = document.createElement('img');
+            let figcaption = document.createElement('figcaption');
 
-    records.forEach(record => {
-        const album = newAlbum(...record);
-        let figure = document.createElement('figure');
-        let img = document.createElement('img');
-        let figcaption = document.createElement('figcaption');
+            img.src = album.cover;
+            figcaption.innerHTML = `<i>${album.title}</i><br> ${album.artist}`;
 
-        img.src = album.cover;
-        figcaption.innerHTML = `<i>${album.title}</i><br> ${album.artist}`;
-
-        figure.appendChild(img);
-        figure.appendChild(figcaption);
-        list.appendChild(figure);
-    });
-</script>
+            figure.appendChild(img);
+            figure.appendChild(figcaption);
+            list.appendChild(figure);
+        });
+    </script>
+</body>
 </html>
