@@ -17,7 +17,10 @@
         <nav>
             <h2>Vinyl Collection</h2>
             <p>This page lists all the albums in my home record collection. My partner and I bought a record player and started building this collection sometime in 2024.</p>
-            <p><b>Updated March 16, 2025.</b></p>
+            <b>Updated May 14, 2025.</b>
+            <p>
+                Added Damn, Megan, I'm Telling You The Truth, and Wheatus <em>(I saw Wheatus live and Brendan signed the album for me after the show)</em>.
+            </p>
             <a href="index.html">Return Home</a>
         </nav>
 
@@ -44,13 +47,17 @@
             ["Incubus", "Make Yourself"],
             ["Incubus", "S.C.I.E.N.C.E."],
             ["J. Cole", "Forest Hills Drive"],
+            ["Kendrick Lamar", "Damn"],
             ["Kendrick Lamar", "Good Kid Maad City"],
             ["Lorde", "Pure Heroine"],
             ["Mac Miller", "Swimming"],
+            ["Megan Thee Stallion", "Megan"],
             ["My Chemical Romance", "The Black Parade"],
             ["My Chemical Romance", "Three Cheers For Sweet Revenge"],
             ["Panic! At The Disco", "A Fever You Can't Sweat Out"],
+            ["Talker", "I'm Telling You The Truth"],
             ["The Killers", "Hot Fuss"],
+            ["Wheatus", "Wheatus"],
         ];
 
         const newAlbum = (artist, title) => {
@@ -58,13 +65,11 @@
                 .replace(/ /g, '-')
                 .replace(/[,.'!]/g, '');
 
-            const album = {
+            return {
                 artist: artist,
                 cover: `img/album_covers/${format(artist)}_${format(title)}.jpg`,
                 title: title,
             };
-
-            return album;
         };
 
         let list = document.getElementById('list');
